@@ -14,7 +14,7 @@
 >   - **基于以上三者**：根据其个人特点以及对文本和任务因素的感知，读者会运用一系列**阅读素养过程**，以找到并提取信息，并从文本中构建意义以完成任务 (Based on their individual characteristics and their perception of text  and task factors, readers apply a set of **reading literacy processes** in order to locate and  extract information and construct meaning from texts to achieve tasks) 
 >   - Note that The PISA cognitive assessment measures reading literacy by manipulating task and text  factors. An additional questionnaire assays some of the reader factors, such as motivation,  disposition and experience.
 >
->   ![Factors that contribute to reading literacy](.\summary\PISA-summary\PISA_Framework_image\Factors_that_contribute_to_reading_literacy.jpg)
+>   ![Factors that contribute to reading literacy](summary/PISA-summary/PISA_Framework_image/Factors_that_contribute_to_reading_literacy.jpg)
 >
 > - 在设计 PISA 阅读素养评估时，最重要的两个考虑因素是，一方面要确保**覆盖学生在学校内外阅读的广泛内容和目的**，另一方面要**在文本和任务中呈现自然的难度变化** (In designing the PISA reading literacy assessment, the two most important considerations are, first, to ensure **broad coverage of what students read and for what purposes they read**, both in and outside of school, and, second, to represent **a natural range of difficulty in texts and tasks****) 
 >   -  **text**: the range of material that is read; 
@@ -27,9 +27,9 @@
 > - **Scenarios(Tasks)**：学生将在阅读一系列主题相关文本时，需要明确一个总体目的，以完成更高级别的任务，比如回答一些更为综合性的问题或根据文本撰写推荐 (The PISA 2018 assessment will include scenarios in which students are provided an overarching purpose for reading a collection of thematically related texts in order to complete a higher-level task (e.g responding to some larger integrative question or writing a recommendation based on a set of texts)) 
 > - **Process(Tasks)**
 >
-> ![PISA 2018 Reading framework processes](.\summary\PISA-summary\PISA_Framework_image\PISA_2018_Reading_framework_processes.jpg)
+> ![PISA 2018 Reading framework processes](summary/PISA-summary/PISA_Framework_image/PISA_2018_Reading_framework_processes.jpg)
 >
-> ![Approximate distribution of tasks by targeted process and text source](.\summary\PISA-summary\PISA_Framework_image\Approximate_distribution_of_tasks_by_targeted_process_and_text_source.jpg)
+> ![Approximate distribution of tasks by targeted process and text source](summary/PISA-summary/PISA_Framework_image/Approximate_distribution_of_tasks_by_targeted_process_and_text_source.jpg)
 >
 > - **Factors improving the coverage of the domain(Text)**
 > 	- Situation：Educational、Occupational、Personal、Public、Multiple
@@ -40,7 +40,7 @@
 > 	- 计分方式有计算机自动评分 (Computer Scored) 与人工评分 (Human Coded) 两种
 > - **Factors affecting item difficulty**：task difficulty can be manipulated through the **process** and **text format** variables
 >
-> [Learn more on PISA 2018 阅读素养评估]([PISA 2018 Reading Framework | PISA 2018 Assessment and Analytical Framework | OECD iLibrary (oecd-ilibrary.org)](https://www.oecd-ilibrary.org/education/pisa-2018-assessment-and-analytical-framework_5c07e4f1-en))
+> [Learn more on PISA 2018 阅读素养评估](https://www.oecd-ilibrary.org/education/pisa-2018-assessment-and-analytical-framework_5c07e4f1-en)
 >
 > [官方给出的一个题目 (S2.09) ](https://pisa2018-questions.oecd.org/platform/index.html?user=&domain=REA&unit=R551-RapaNui&lang=eng-ZZZ)
 
