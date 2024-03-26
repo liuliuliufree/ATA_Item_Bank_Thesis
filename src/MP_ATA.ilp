@@ -1,0 +1,72 @@
+\ Model MP_ATA_copy_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Maximize
+ 
+Subject To
+ Cons_Panal2_LevelRatioStage2H_1: - 1.5 assignPath2[C1_1,Stage_2H]
+   - 0.5 assignPath2[C1_2,Stage_2H] - 0.1 assignPath2[C1_4,Stage_2H]
+   - 0.2 assignPath2[S1_3,Stage_2H] - 0.2 assignPath2[S1_4,Stage_2H]
+   - 0.1 assignPath2[S1_5,Stage_2H] + 0.2 assignPath2[S1_6,Stage_2H]
+   - 2.5 assignPath2[S1_7,Stage_2H] - 2.2 assignPath2[S1_9,Stage_2H]
+   - 0.5 assignPath2[S1_10,Stage_2H] - 1.2 assignPath2[S1_11,Stage_2H]
+   - 0.8 assignPath2[S1_12,Stage_2H] - 0.8 assignPath2[S1_14,Stage_2H]
+   - 0.8 assignPath2[S1_16,Stage_2H] - 1.5 assignPath2[S1_18,Stage_2H]
+   - 1.8 assignPath2[S1_19,Stage_2H] - 3.5 assignPath2[S1_20,Stage_2H]
+   - 3.2 assignPath2[S1_22,Stage_2H] - 1.8 assignPath2[S1_24,Stage_2H]
+   - 3.9 assignPath2[S2_2,Stage_2H] - 0.9 assignPath2[S2_3,Stage_2H]
+   - 3.9 assignPath2[S2_7,Stage_2H] + 2.1 assignPath2[S2_9,Stage_2H]
+   - 0.9 assignPath2[S2_10,Stage_2H] - 1.9 assignPath2[S2_11,Stage_2H]
+   - 3.2 assignPath2[S2_12,Stage_2H] - 2.5 assignPath2[S2_13,Stage_2H]
+   - 0.9 assignPath2[S2_14,Stage_2H] - 2.5 assignPath2[S2_15,Stage_2H]
+   - 2.2 assignPath2[S2_16,Stage_2H] >= 0
+ Cons_Panal2_TestletsNumberPerModule[3,Stage_2H]:
+   assignPath2[C1_1,Stage_2H] + assignPath2[C1_2,Stage_2H]
+   + assignPath2[C1_4,Stage_2H] + assignPath2[S1_3,Stage_2H]
+   + assignPath2[S1_4,Stage_2H] + assignPath2[S1_5,Stage_2H]
+   + assignPath2[S1_6,Stage_2H] + assignPath2[S1_7,Stage_2H]
+   + assignPath2[S1_9,Stage_2H] + assignPath2[S1_10,Stage_2H]
+   + assignPath2[S1_11,Stage_2H] + assignPath2[S1_12,Stage_2H]
+   + assignPath2[S1_14,Stage_2H] + assignPath2[S1_16,Stage_2H]
+   + assignPath2[S1_18,Stage_2H] + assignPath2[S1_19,Stage_2H]
+   + assignPath2[S1_20,Stage_2H] + assignPath2[S1_22,Stage_2H]
+   + assignPath2[S1_24,Stage_2H] + assignPath2[S2_2,Stage_2H]
+   + assignPath2[S2_3,Stage_2H] + assignPath2[S2_7,Stage_2H]
+   + assignPath2[S2_9,Stage_2H] + assignPath2[S2_10,Stage_2H]
+   + assignPath2[S2_11,Stage_2H] + assignPath2[S2_12,Stage_2H]
+   + assignPath2[S2_13,Stage_2H] + assignPath2[S2_14,Stage_2H]
+   + assignPath2[S2_15,Stage_2H] + assignPath2[S2_16,Stage_2H] = 2
+ Cons_Panal2_LB_Object_Stage2H: 2.565 assignPath2[C1_1,Stage_2H]
+   + 2.443 assignPath2[C1_2,Stage_2H] + 0.801 assignPath2[C1_4,Stage_2H]
+   + 3.37 assignPath2[S1_3,Stage_2H] + 3.852 assignPath2[S1_4,Stage_2H]
+   + 0.788 assignPath2[S1_5,Stage_2H] + 1.683 assignPath2[S1_6,Stage_2H]
+   + 2.028 assignPath2[S1_7,Stage_2H] + 3.19 assignPath2[S1_9,Stage_2H]
+   + 2.013 assignPath2[S1_10,Stage_2H] + 3.009 assignPath2[S1_11,Stage_2H]
+   + 3.012 assignPath2[S1_12,Stage_2H] + 1.663 assignPath2[S1_14,Stage_2H]
+   + 1.875 assignPath2[S1_16,Stage_2H] + 2.555 assignPath2[S1_18,Stage_2H]
+   + 1.733 assignPath2[S1_19,Stage_2H] + 1.1 assignPath2[S1_20,Stage_2H]
+   + 2.994 assignPath2[S1_22,Stage_2H] + 2.659 assignPath2[S1_24,Stage_2H]
+   + 3.571 assignPath2[S2_2,Stage_2H] + 4.015 assignPath2[S2_3,Stage_2H]
+   + 5.696 assignPath2[S2_7,Stage_2H] + 2.233 assignPath2[S2_9,Stage_2H]
+   + 2.75 assignPath2[S2_10,Stage_2H] + 4.127 assignPath2[S2_11,Stage_2H]
+   + 3.931 assignPath2[S2_12,Stage_2H] + 2.179 assignPath2[S2_13,Stage_2H]
+   + 4.152 assignPath2[S2_14,Stage_2H] + 2.471 assignPath2[S2_15,Stage_2H]
+   + 2.932 assignPath2[S2_16,Stage_2H] - 8 y >= 0
+Bounds
+ y >= 1
+Binaries
+ assignPath2[C1_1,Stage_2H] assignPath2[C1_2,Stage_2H]
+ assignPath2[C1_4,Stage_2H] assignPath2[S1_3,Stage_2H]
+ assignPath2[S1_4,Stage_2H] assignPath2[S1_5,Stage_2H]
+ assignPath2[S1_6,Stage_2H] assignPath2[S1_7,Stage_2H]
+ assignPath2[S1_9,Stage_2H] assignPath2[S1_10,Stage_2H]
+ assignPath2[S1_11,Stage_2H] assignPath2[S1_12,Stage_2H]
+ assignPath2[S1_14,Stage_2H] assignPath2[S1_16,Stage_2H]
+ assignPath2[S1_18,Stage_2H] assignPath2[S1_19,Stage_2H]
+ assignPath2[S1_20,Stage_2H] assignPath2[S1_22,Stage_2H]
+ assignPath2[S1_24,Stage_2H] assignPath2[S2_2,Stage_2H]
+ assignPath2[S2_3,Stage_2H] assignPath2[S2_7,Stage_2H]
+ assignPath2[S2_9,Stage_2H] assignPath2[S2_10,Stage_2H]
+ assignPath2[S2_11,Stage_2H] assignPath2[S2_12,Stage_2H]
+ assignPath2[S2_13,Stage_2H] assignPath2[S2_14,Stage_2H]
+ assignPath2[S2_15,Stage_2H] assignPath2[S2_16,Stage_2H]
+End
