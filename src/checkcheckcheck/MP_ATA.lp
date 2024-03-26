@@ -3909,7 +3909,7 @@ Subject To
  Cons_Panal1_ProcessNumberPath1:
    zPanal1[Path1,Assess_quality_and_credibility]
    + zPanal1[Path1,Corroborate_and_handle_conflict]
-   + zPanal1[Path1,Integrate_and_generate_tnferences]
+   + zPanal1[Path1,Integrate_and_generate_inferences]
    + zPanal1[Path1,Reflect_on_content_and_form]
    + zPanal1[Path1,Represent_literal_meaning]
    + zPanal1[Path1,Scan_and_locate]
@@ -3917,7 +3917,7 @@ Subject To
  Cons_Panal1_ProcessNumberPath2:
    zPanal1[Path2,Assess_quality_and_credibility]
    + zPanal1[Path2,Corroborate_and_handle_conflict]
-   + zPanal1[Path2,Integrate_and_generate_tnferences]
+   + zPanal1[Path2,Integrate_and_generate_inferences]
    + zPanal1[Path2,Reflect_on_content_and_form]
    + zPanal1[Path2,Represent_literal_meaning]
    + zPanal1[Path2,Scan_and_locate]
@@ -3925,7 +3925,7 @@ Subject To
  Cons_Panal1_ProcessNumberPath3:
    zPanal1[Path3,Assess_quality_and_credibility]
    + zPanal1[Path3,Corroborate_and_handle_conflict]
-   + zPanal1[Path3,Integrate_and_generate_tnferences]
+   + zPanal1[Path3,Integrate_and_generate_inferences]
    + zPanal1[Path3,Reflect_on_content_and_form]
    + zPanal1[Path3,Represent_literal_meaning]
    + zPanal1[Path3,Scan_and_locate]
@@ -3933,7 +3933,7 @@ Subject To
  Cons_Panal1_ProcessNumberPath4:
    zPanal1[Path4,Assess_quality_and_credibility]
    + zPanal1[Path4,Corroborate_and_handle_conflict]
-   + zPanal1[Path4,Integrate_and_generate_tnferences]
+   + zPanal1[Path4,Integrate_and_generate_inferences]
    + zPanal1[Path4,Reflect_on_content_and_form]
    + zPanal1[Path4,Represent_literal_meaning]
    + zPanal1[Path4,Scan_and_locate]
@@ -3941,7 +3941,7 @@ Subject To
  Cons_Panal2_ProcessNumberPath1:
    zPanal2[Path1,Assess_quality_and_credibility]
    + zPanal2[Path1,Corroborate_and_handle_conflict]
-   + zPanal2[Path1,Integrate_and_generate_tnferences]
+   + zPanal2[Path1,Integrate_and_generate_inferences]
    + zPanal2[Path1,Reflect_on_content_and_form]
    + zPanal2[Path1,Represent_literal_meaning]
    + zPanal2[Path1,Scan_and_locate]
@@ -3949,7 +3949,7 @@ Subject To
  Cons_Panal2_ProcessNumberPath2:
    zPanal2[Path2,Assess_quality_and_credibility]
    + zPanal2[Path2,Corroborate_and_handle_conflict]
-   + zPanal2[Path2,Integrate_and_generate_tnferences]
+   + zPanal2[Path2,Integrate_and_generate_inferences]
    + zPanal2[Path2,Reflect_on_content_and_form]
    + zPanal2[Path2,Represent_literal_meaning]
    + zPanal2[Path2,Scan_and_locate]
@@ -3957,7 +3957,7 @@ Subject To
  Cons_Panal2_ProcessNumberPath3:
    zPanal2[Path3,Assess_quality_and_credibility]
    + zPanal2[Path3,Corroborate_and_handle_conflict]
-   + zPanal2[Path3,Integrate_and_generate_tnferences]
+   + zPanal2[Path3,Integrate_and_generate_inferences]
    + zPanal2[Path3,Reflect_on_content_and_form]
    + zPanal2[Path3,Represent_literal_meaning]
    + zPanal2[Path3,Scan_and_locate]
@@ -3965,7 +3965,7 @@ Subject To
  Cons_Panal2_ProcessNumberPath4:
    zPanal2[Path4,Assess_quality_and_credibility]
    + zPanal2[Path4,Corroborate_and_handle_conflict]
-   + zPanal2[Path4,Integrate_and_generate_tnferences]
+   + zPanal2[Path4,Integrate_and_generate_inferences]
    + zPanal2[Path4,Reflect_on_content_and_form]
    + zPanal2[Path4,Represent_literal_meaning]
    + zPanal2[Path4,Scan_and_locate]
@@ -3973,7 +3973,7 @@ Subject To
  Cons_Panal3_ProcessNumberPath1:
    zPanal3[Path1,Assess_quality_and_credibility]
    + zPanal3[Path1,Corroborate_and_handle_conflict]
-   + zPanal3[Path1,Integrate_and_generate_tnferences]
+   + zPanal3[Path1,Integrate_and_generate_inferences]
    + zPanal3[Path1,Reflect_on_content_and_form]
    + zPanal3[Path1,Represent_literal_meaning]
    + zPanal3[Path1,Scan_and_locate]
@@ -3981,7 +3981,7 @@ Subject To
  Cons_Panal3_ProcessNumberPath2:
    zPanal3[Path2,Assess_quality_and_credibility]
    + zPanal3[Path2,Corroborate_and_handle_conflict]
-   + zPanal3[Path2,Integrate_and_generate_tnferences]
+   + zPanal3[Path2,Integrate_and_generate_inferences]
    + zPanal3[Path2,Reflect_on_content_and_form]
    + zPanal3[Path2,Represent_literal_meaning]
    + zPanal3[Path2,Scan_and_locate]
@@ -3989,7 +3989,7 @@ Subject To
  Cons_Panal3_ProcessNumberPath3:
    zPanal3[Path3,Assess_quality_and_credibility]
    + zPanal3[Path3,Corroborate_and_handle_conflict]
-   + zPanal3[Path3,Integrate_and_generate_tnferences]
+   + zPanal3[Path3,Integrate_and_generate_inferences]
    + zPanal3[Path3,Reflect_on_content_and_form]
    + zPanal3[Path3,Represent_literal_meaning]
    + zPanal3[Path3,Scan_and_locate]
@@ -3997,7 +3997,7 @@ Subject To
  Cons_Panal3_ProcessNumberPath4:
    zPanal3[Path4,Assess_quality_and_credibility]
    + zPanal3[Path4,Corroborate_and_handle_conflict]
-   + zPanal3[Path4,Integrate_and_generate_tnferences]
+   + zPanal3[Path4,Integrate_and_generate_inferences]
    + zPanal3[Path4,Reflect_on_content_and_form]
    + zPanal3[Path4,Represent_literal_meaning]
    + zPanal3[Path4,Scan_and_locate]
@@ -4005,7 +4005,7 @@ Subject To
  Cons_Panal4_ProcessNumberPath1:
    zPanal4[Path1,Assess_quality_and_credibility]
    + zPanal4[Path1,Corroborate_and_handle_conflict]
-   + zPanal4[Path1,Integrate_and_generate_tnferences]
+   + zPanal4[Path1,Integrate_and_generate_inferences]
    + zPanal4[Path1,Reflect_on_content_and_form]
    + zPanal4[Path1,Represent_literal_meaning]
    + zPanal4[Path1,Scan_and_locate]
@@ -4013,7 +4013,7 @@ Subject To
  Cons_Panal4_ProcessNumberPath2:
    zPanal4[Path2,Assess_quality_and_credibility]
    + zPanal4[Path2,Corroborate_and_handle_conflict]
-   + zPanal4[Path2,Integrate_and_generate_tnferences]
+   + zPanal4[Path2,Integrate_and_generate_inferences]
    + zPanal4[Path2,Reflect_on_content_and_form]
    + zPanal4[Path2,Represent_literal_meaning]
    + zPanal4[Path2,Scan_and_locate]
@@ -4021,7 +4021,7 @@ Subject To
  Cons_Panal4_ProcessNumberPath3:
    zPanal4[Path3,Assess_quality_and_credibility]
    + zPanal4[Path3,Corroborate_and_handle_conflict]
-   + zPanal4[Path3,Integrate_and_generate_tnferences]
+   + zPanal4[Path3,Integrate_and_generate_inferences]
    + zPanal4[Path3,Reflect_on_content_and_form]
    + zPanal4[Path3,Represent_literal_meaning]
    + zPanal4[Path3,Scan_and_locate]
@@ -4029,7 +4029,7 @@ Subject To
  Cons_Panal4_ProcessNumberPath4:
    zPanal4[Path4,Assess_quality_and_credibility]
    + zPanal4[Path4,Corroborate_and_handle_conflict]
-   + zPanal4[Path4,Integrate_and_generate_tnferences]
+   + zPanal4[Path4,Integrate_and_generate_inferences]
    + zPanal4[Path4,Reflect_on_content_and_form]
    + zPanal4[Path4,Represent_literal_meaning]
    + zPanal4[Path4,Scan_and_locate]
@@ -10150,7 +10150,7 @@ Subject To
    + assignPanal1[S2_9,Stage_1H] + assignPanal1[S2_9,Stage_2H]
    + assignPanal1[S2_16,Core_Stage] + assignPanal1[S2_16,Stage_1H]
    + assignPanal1[S2_16,Stage_2H] >= 1
- Cons_Panal1_Path1_Integrate_and_generate_tnferences: zPanal1[Path1,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal1_Path1_Integrate_and_generate_inferences: zPanal1[Path1,Integrate_and_generate_inferences] = 1 ->
    assignPanal1[C1_2,Core_Stage] + assignPanal1[C1_2,Stage_1H]
    + assignPanal1[C1_2,Stage_2H] + assignPanal1[C1_5,Core_Stage]
    + assignPanal1[C1_5,Stage_1H] + assignPanal1[C1_5,Stage_2H]
@@ -10599,7 +10599,7 @@ Subject To
    + assignPanal1[S2_9,Stage_1H] + assignPanal1[S2_9,Stage_2L]
    + assignPanal1[S2_16,Core_Stage] + assignPanal1[S2_16,Stage_1H]
    + assignPanal1[S2_16,Stage_2L] >= 1
- Cons_Panal1_Path2_Integrate_and_generate_tnferences: zPanal1[Path2,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal1_Path2_Integrate_and_generate_inferences: zPanal1[Path2,Integrate_and_generate_inferences] = 1 ->
    assignPanal1[C1_2,Core_Stage] + assignPanal1[C1_2,Stage_1H]
    + assignPanal1[C1_2,Stage_2L] + assignPanal1[C1_5,Core_Stage]
    + assignPanal1[C1_5,Stage_1H] + assignPanal1[C1_5,Stage_2L]
@@ -11048,7 +11048,7 @@ Subject To
    + assignPanal1[S2_9,Stage_1L] + assignPanal1[S2_9,Stage_2H]
    + assignPanal1[S2_16,Core_Stage] + assignPanal1[S2_16,Stage_1L]
    + assignPanal1[S2_16,Stage_2H] >= 1
- Cons_Panal1_Path3_Integrate_and_generate_tnferences: zPanal1[Path3,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal1_Path3_Integrate_and_generate_inferences: zPanal1[Path3,Integrate_and_generate_inferences] = 1 ->
    assignPanal1[C1_2,Core_Stage] + assignPanal1[C1_2,Stage_1L]
    + assignPanal1[C1_2,Stage_2H] + assignPanal1[C1_5,Core_Stage]
    + assignPanal1[C1_5,Stage_1L] + assignPanal1[C1_5,Stage_2H]
@@ -11497,7 +11497,7 @@ Subject To
    + assignPanal1[S2_9,Stage_1L] + assignPanal1[S2_9,Stage_2L]
    + assignPanal1[S2_16,Core_Stage] + assignPanal1[S2_16,Stage_1L]
    + assignPanal1[S2_16,Stage_2L] >= 1
- Cons_Panal1_Path4_Integrate_and_generate_tnferences: zPanal1[Path4,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal1_Path4_Integrate_and_generate_inferences: zPanal1[Path4,Integrate_and_generate_inferences] = 1 ->
    assignPanal1[C1_2,Core_Stage] + assignPanal1[C1_2,Stage_1L]
    + assignPanal1[C1_2,Stage_2L] + assignPanal1[C1_5,Core_Stage]
    + assignPanal1[C1_5,Stage_1L] + assignPanal1[C1_5,Stage_2L]
@@ -11946,7 +11946,7 @@ Subject To
    + assignPanal2[S2_9,Stage_1H] + assignPanal2[S2_9,Stage_2H]
    + assignPanal2[S2_16,Core_Stage] + assignPanal2[S2_16,Stage_1H]
    + assignPanal2[S2_16,Stage_2H] >= 1
- Cons_Panal2_Path1_Integrate_and_generate_tnferences: zPanal2[Path1,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal2_Path1_Integrate_and_generate_inferences: zPanal2[Path1,Integrate_and_generate_inferences] = 1 ->
    assignPanal2[C1_2,Core_Stage] + assignPanal2[C1_2,Stage_1H]
    + assignPanal2[C1_2,Stage_2H] + assignPanal2[C1_5,Core_Stage]
    + assignPanal2[C1_5,Stage_1H] + assignPanal2[C1_5,Stage_2H]
@@ -12395,7 +12395,7 @@ Subject To
    + assignPanal2[S2_9,Stage_1H] + assignPanal2[S2_9,Stage_2L]
    + assignPanal2[S2_16,Core_Stage] + assignPanal2[S2_16,Stage_1H]
    + assignPanal2[S2_16,Stage_2L] >= 1
- Cons_Panal2_Path2_Integrate_and_generate_tnferences: zPanal2[Path2,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal2_Path2_Integrate_and_generate_inferences: zPanal2[Path2,Integrate_and_generate_inferences] = 1 ->
    assignPanal2[C1_2,Core_Stage] + assignPanal2[C1_2,Stage_1H]
    + assignPanal2[C1_2,Stage_2L] + assignPanal2[C1_5,Core_Stage]
    + assignPanal2[C1_5,Stage_1H] + assignPanal2[C1_5,Stage_2L]
@@ -12844,7 +12844,7 @@ Subject To
    + assignPanal2[S2_9,Stage_1L] + assignPanal2[S2_9,Stage_2H]
    + assignPanal2[S2_16,Core_Stage] + assignPanal2[S2_16,Stage_1L]
    + assignPanal2[S2_16,Stage_2H] >= 1
- Cons_Panal2_Path3_Integrate_and_generate_tnferences: zPanal2[Path3,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal2_Path3_Integrate_and_generate_inferences: zPanal2[Path3,Integrate_and_generate_inferences] = 1 ->
    assignPanal2[C1_2,Core_Stage] + assignPanal2[C1_2,Stage_1L]
    + assignPanal2[C1_2,Stage_2H] + assignPanal2[C1_5,Core_Stage]
    + assignPanal2[C1_5,Stage_1L] + assignPanal2[C1_5,Stage_2H]
@@ -13293,7 +13293,7 @@ Subject To
    + assignPanal2[S2_9,Stage_1L] + assignPanal2[S2_9,Stage_2L]
    + assignPanal2[S2_16,Core_Stage] + assignPanal2[S2_16,Stage_1L]
    + assignPanal2[S2_16,Stage_2L] >= 1
- Cons_Panal2_Path4_Integrate_and_generate_tnferences: zPanal2[Path4,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal2_Path4_Integrate_and_generate_inferences: zPanal2[Path4,Integrate_and_generate_inferences] = 1 ->
    assignPanal2[C1_2,Core_Stage] + assignPanal2[C1_2,Stage_1L]
    + assignPanal2[C1_2,Stage_2L] + assignPanal2[C1_5,Core_Stage]
    + assignPanal2[C1_5,Stage_1L] + assignPanal2[C1_5,Stage_2L]
@@ -13742,7 +13742,7 @@ Subject To
    + assignPanal3[S2_9,Stage_1H] + assignPanal3[S2_9,Stage_2H]
    + assignPanal3[S2_16,Core_Stage] + assignPanal3[S2_16,Stage_1H]
    + assignPanal3[S2_16,Stage_2H] >= 1
- Cons_Panal3_Path1_Integrate_and_generate_tnferences: zPanal3[Path1,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal3_Path1_Integrate_and_generate_inferences: zPanal3[Path1,Integrate_and_generate_inferences] = 1 ->
    assignPanal3[C1_2,Core_Stage] + assignPanal3[C1_2,Stage_1H]
    + assignPanal3[C1_2,Stage_2H] + assignPanal3[C1_5,Core_Stage]
    + assignPanal3[C1_5,Stage_1H] + assignPanal3[C1_5,Stage_2H]
@@ -14191,7 +14191,7 @@ Subject To
    + assignPanal3[S2_9,Stage_1H] + assignPanal3[S2_9,Stage_2L]
    + assignPanal3[S2_16,Core_Stage] + assignPanal3[S2_16,Stage_1H]
    + assignPanal3[S2_16,Stage_2L] >= 1
- Cons_Panal3_Path2_Integrate_and_generate_tnferences: zPanal3[Path2,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal3_Path2_Integrate_and_generate_inferences: zPanal3[Path2,Integrate_and_generate_inferences] = 1 ->
    assignPanal3[C1_2,Core_Stage] + assignPanal3[C1_2,Stage_1H]
    + assignPanal3[C1_2,Stage_2L] + assignPanal3[C1_5,Core_Stage]
    + assignPanal3[C1_5,Stage_1H] + assignPanal3[C1_5,Stage_2L]
@@ -14640,7 +14640,7 @@ Subject To
    + assignPanal3[S2_9,Stage_1L] + assignPanal3[S2_9,Stage_2H]
    + assignPanal3[S2_16,Core_Stage] + assignPanal3[S2_16,Stage_1L]
    + assignPanal3[S2_16,Stage_2H] >= 1
- Cons_Panal3_Path3_Integrate_and_generate_tnferences: zPanal3[Path3,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal3_Path3_Integrate_and_generate_inferences: zPanal3[Path3,Integrate_and_generate_inferences] = 1 ->
    assignPanal3[C1_2,Core_Stage] + assignPanal3[C1_2,Stage_1L]
    + assignPanal3[C1_2,Stage_2H] + assignPanal3[C1_5,Core_Stage]
    + assignPanal3[C1_5,Stage_1L] + assignPanal3[C1_5,Stage_2H]
@@ -15089,7 +15089,7 @@ Subject To
    + assignPanal3[S2_9,Stage_1L] + assignPanal3[S2_9,Stage_2L]
    + assignPanal3[S2_16,Core_Stage] + assignPanal3[S2_16,Stage_1L]
    + assignPanal3[S2_16,Stage_2L] >= 1
- Cons_Panal3_Path4_Integrate_and_generate_tnferences: zPanal3[Path4,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal3_Path4_Integrate_and_generate_inferences: zPanal3[Path4,Integrate_and_generate_inferences] = 1 ->
    assignPanal3[C1_2,Core_Stage] + assignPanal3[C1_2,Stage_1L]
    + assignPanal3[C1_2,Stage_2L] + assignPanal3[C1_5,Core_Stage]
    + assignPanal3[C1_5,Stage_1L] + assignPanal3[C1_5,Stage_2L]
@@ -15538,7 +15538,7 @@ Subject To
    + assignPanal4[S2_9,Stage_1H] + assignPanal4[S2_9,Stage_2H]
    + assignPanal4[S2_16,Core_Stage] + assignPanal4[S2_16,Stage_1H]
    + assignPanal4[S2_16,Stage_2H] >= 1
- Cons_Panal4_Path1_Integrate_and_generate_tnferences: zPanal4[Path1,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal4_Path1_Integrate_and_generate_inferences: zPanal4[Path1,Integrate_and_generate_inferences] = 1 ->
    assignPanal4[C1_2,Core_Stage] + assignPanal4[C1_2,Stage_1H]
    + assignPanal4[C1_2,Stage_2H] + assignPanal4[C1_5,Core_Stage]
    + assignPanal4[C1_5,Stage_1H] + assignPanal4[C1_5,Stage_2H]
@@ -15987,7 +15987,7 @@ Subject To
    + assignPanal4[S2_9,Stage_1H] + assignPanal4[S2_9,Stage_2L]
    + assignPanal4[S2_16,Core_Stage] + assignPanal4[S2_16,Stage_1H]
    + assignPanal4[S2_16,Stage_2L] >= 1
- Cons_Panal4_Path2_Integrate_and_generate_tnferences: zPanal4[Path2,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal4_Path2_Integrate_and_generate_inferences: zPanal4[Path2,Integrate_and_generate_inferences] = 1 ->
    assignPanal4[C1_2,Core_Stage] + assignPanal4[C1_2,Stage_1H]
    + assignPanal4[C1_2,Stage_2L] + assignPanal4[C1_5,Core_Stage]
    + assignPanal4[C1_5,Stage_1H] + assignPanal4[C1_5,Stage_2L]
@@ -16436,7 +16436,7 @@ Subject To
    + assignPanal4[S2_9,Stage_1L] + assignPanal4[S2_9,Stage_2H]
    + assignPanal4[S2_16,Core_Stage] + assignPanal4[S2_16,Stage_1L]
    + assignPanal4[S2_16,Stage_2H] >= 1
- Cons_Panal4_Path3_Integrate_and_generate_tnferences: zPanal4[Path3,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal4_Path3_Integrate_and_generate_inferences: zPanal4[Path3,Integrate_and_generate_inferences] = 1 ->
    assignPanal4[C1_2,Core_Stage] + assignPanal4[C1_2,Stage_1L]
    + assignPanal4[C1_2,Stage_2H] + assignPanal4[C1_5,Core_Stage]
    + assignPanal4[C1_5,Stage_1L] + assignPanal4[C1_5,Stage_2H]
@@ -16885,7 +16885,7 @@ Subject To
    + assignPanal4[S2_9,Stage_1L] + assignPanal4[S2_9,Stage_2L]
    + assignPanal4[S2_16,Core_Stage] + assignPanal4[S2_16,Stage_1L]
    + assignPanal4[S2_16,Stage_2L] >= 1
- Cons_Panal4_Path4_Integrate_and_generate_tnferences: zPanal4[Path4,Integrate_and_generate_tnferences] = 1 ->
+ Cons_Panal4_Path4_Integrate_and_generate_inferences: zPanal4[Path4,Integrate_and_generate_inferences] = 1 ->
    assignPanal4[C1_2,Core_Stage] + assignPanal4[C1_2,Stage_1L]
    + assignPanal4[C1_2,Stage_2L] + assignPanal4[C1_5,Core_Stage]
    + assignPanal4[C1_5,Stage_1L] + assignPanal4[C1_5,Stage_2L]
@@ -17550,7 +17550,7 @@ Binaries
  zPanal1[Path1,Narrative] zPanal1[Path1,Transactional]
  zPanal1[Path1,W_Multiple] zPanal1[Path1,Assess_quality_and_credibility]
  zPanal1[Path1,Corroborate_and_handle_conflict]
- zPanal1[Path1,Integrate_and_generate_tnferences]
+ zPanal1[Path1,Integrate_and_generate_inferences]
  zPanal1[Path1,Reflect_on_content_and_form]
  zPanal1[Path1,Represent_literal_meaning] zPanal1[Path1,Scan_and_locate]
  zPanal1[Path1,Search_and_select_relevant_text] zPanal1[Path1,Educational]
@@ -17561,7 +17561,7 @@ Binaries
  zPanal1[Path2,Transactional] zPanal1[Path2,W_Multiple]
  zPanal1[Path2,Assess_quality_and_credibility]
  zPanal1[Path2,Corroborate_and_handle_conflict]
- zPanal1[Path2,Integrate_and_generate_tnferences]
+ zPanal1[Path2,Integrate_and_generate_inferences]
  zPanal1[Path2,Reflect_on_content_and_form]
  zPanal1[Path2,Represent_literal_meaning] zPanal1[Path2,Scan_and_locate]
  zPanal1[Path2,Search_and_select_relevant_text] zPanal1[Path2,Educational]
@@ -17572,7 +17572,7 @@ Binaries
  zPanal1[Path3,Transactional] zPanal1[Path3,W_Multiple]
  zPanal1[Path3,Assess_quality_and_credibility]
  zPanal1[Path3,Corroborate_and_handle_conflict]
- zPanal1[Path3,Integrate_and_generate_tnferences]
+ zPanal1[Path3,Integrate_and_generate_inferences]
  zPanal1[Path3,Reflect_on_content_and_form]
  zPanal1[Path3,Represent_literal_meaning] zPanal1[Path3,Scan_and_locate]
  zPanal1[Path3,Search_and_select_relevant_text] zPanal1[Path3,Educational]
@@ -17583,7 +17583,7 @@ Binaries
  zPanal1[Path4,Transactional] zPanal1[Path4,W_Multiple]
  zPanal1[Path4,Assess_quality_and_credibility]
  zPanal1[Path4,Corroborate_and_handle_conflict]
- zPanal1[Path4,Integrate_and_generate_tnferences]
+ zPanal1[Path4,Integrate_and_generate_inferences]
  zPanal1[Path4,Reflect_on_content_and_form]
  zPanal1[Path4,Represent_literal_meaning] zPanal1[Path4,Scan_and_locate]
  zPanal1[Path4,Search_and_select_relevant_text] zPanal1[Path4,Educational]
@@ -17594,7 +17594,7 @@ Binaries
  zPanal2[Path1,Transactional] zPanal2[Path1,W_Multiple]
  zPanal2[Path1,Assess_quality_and_credibility]
  zPanal2[Path1,Corroborate_and_handle_conflict]
- zPanal2[Path1,Integrate_and_generate_tnferences]
+ zPanal2[Path1,Integrate_and_generate_inferences]
  zPanal2[Path1,Reflect_on_content_and_form]
  zPanal2[Path1,Represent_literal_meaning] zPanal2[Path1,Scan_and_locate]
  zPanal2[Path1,Search_and_select_relevant_text] zPanal2[Path1,Educational]
@@ -17605,7 +17605,7 @@ Binaries
  zPanal2[Path2,Transactional] zPanal2[Path2,W_Multiple]
  zPanal2[Path2,Assess_quality_and_credibility]
  zPanal2[Path2,Corroborate_and_handle_conflict]
- zPanal2[Path2,Integrate_and_generate_tnferences]
+ zPanal2[Path2,Integrate_and_generate_inferences]
  zPanal2[Path2,Reflect_on_content_and_form]
  zPanal2[Path2,Represent_literal_meaning] zPanal2[Path2,Scan_and_locate]
  zPanal2[Path2,Search_and_select_relevant_text] zPanal2[Path2,Educational]
@@ -17616,7 +17616,7 @@ Binaries
  zPanal2[Path3,Transactional] zPanal2[Path3,W_Multiple]
  zPanal2[Path3,Assess_quality_and_credibility]
  zPanal2[Path3,Corroborate_and_handle_conflict]
- zPanal2[Path3,Integrate_and_generate_tnferences]
+ zPanal2[Path3,Integrate_and_generate_inferences]
  zPanal2[Path3,Reflect_on_content_and_form]
  zPanal2[Path3,Represent_literal_meaning] zPanal2[Path3,Scan_and_locate]
  zPanal2[Path3,Search_and_select_relevant_text] zPanal2[Path3,Educational]
@@ -17627,7 +17627,7 @@ Binaries
  zPanal2[Path4,Transactional] zPanal2[Path4,W_Multiple]
  zPanal2[Path4,Assess_quality_and_credibility]
  zPanal2[Path4,Corroborate_and_handle_conflict]
- zPanal2[Path4,Integrate_and_generate_tnferences]
+ zPanal2[Path4,Integrate_and_generate_inferences]
  zPanal2[Path4,Reflect_on_content_and_form]
  zPanal2[Path4,Represent_literal_meaning] zPanal2[Path4,Scan_and_locate]
  zPanal2[Path4,Search_and_select_relevant_text] zPanal2[Path4,Educational]
@@ -17638,7 +17638,7 @@ Binaries
  zPanal3[Path1,Transactional] zPanal3[Path1,W_Multiple]
  zPanal3[Path1,Assess_quality_and_credibility]
  zPanal3[Path1,Corroborate_and_handle_conflict]
- zPanal3[Path1,Integrate_and_generate_tnferences]
+ zPanal3[Path1,Integrate_and_generate_inferences]
  zPanal3[Path1,Reflect_on_content_and_form]
  zPanal3[Path1,Represent_literal_meaning] zPanal3[Path1,Scan_and_locate]
  zPanal3[Path1,Search_and_select_relevant_text] zPanal3[Path1,Educational]
@@ -17649,7 +17649,7 @@ Binaries
  zPanal3[Path2,Transactional] zPanal3[Path2,W_Multiple]
  zPanal3[Path2,Assess_quality_and_credibility]
  zPanal3[Path2,Corroborate_and_handle_conflict]
- zPanal3[Path2,Integrate_and_generate_tnferences]
+ zPanal3[Path2,Integrate_and_generate_inferences]
  zPanal3[Path2,Reflect_on_content_and_form]
  zPanal3[Path2,Represent_literal_meaning] zPanal3[Path2,Scan_and_locate]
  zPanal3[Path2,Search_and_select_relevant_text] zPanal3[Path2,Educational]
@@ -17660,7 +17660,7 @@ Binaries
  zPanal3[Path3,Transactional] zPanal3[Path3,W_Multiple]
  zPanal3[Path3,Assess_quality_and_credibility]
  zPanal3[Path3,Corroborate_and_handle_conflict]
- zPanal3[Path3,Integrate_and_generate_tnferences]
+ zPanal3[Path3,Integrate_and_generate_inferences]
  zPanal3[Path3,Reflect_on_content_and_form]
  zPanal3[Path3,Represent_literal_meaning] zPanal3[Path3,Scan_and_locate]
  zPanal3[Path3,Search_and_select_relevant_text] zPanal3[Path3,Educational]
@@ -17671,7 +17671,7 @@ Binaries
  zPanal3[Path4,Transactional] zPanal3[Path4,W_Multiple]
  zPanal3[Path4,Assess_quality_and_credibility]
  zPanal3[Path4,Corroborate_and_handle_conflict]
- zPanal3[Path4,Integrate_and_generate_tnferences]
+ zPanal3[Path4,Integrate_and_generate_inferences]
  zPanal3[Path4,Reflect_on_content_and_form]
  zPanal3[Path4,Represent_literal_meaning] zPanal3[Path4,Scan_and_locate]
  zPanal3[Path4,Search_and_select_relevant_text] zPanal3[Path4,Educational]
@@ -17682,7 +17682,7 @@ Binaries
  zPanal4[Path1,Transactional] zPanal4[Path1,W_Multiple]
  zPanal4[Path1,Assess_quality_and_credibility]
  zPanal4[Path1,Corroborate_and_handle_conflict]
- zPanal4[Path1,Integrate_and_generate_tnferences]
+ zPanal4[Path1,Integrate_and_generate_inferences]
  zPanal4[Path1,Reflect_on_content_and_form]
  zPanal4[Path1,Represent_literal_meaning] zPanal4[Path1,Scan_and_locate]
  zPanal4[Path1,Search_and_select_relevant_text] zPanal4[Path1,Educational]
@@ -17693,7 +17693,7 @@ Binaries
  zPanal4[Path2,Transactional] zPanal4[Path2,W_Multiple]
  zPanal4[Path2,Assess_quality_and_credibility]
  zPanal4[Path2,Corroborate_and_handle_conflict]
- zPanal4[Path2,Integrate_and_generate_tnferences]
+ zPanal4[Path2,Integrate_and_generate_inferences]
  zPanal4[Path2,Reflect_on_content_and_form]
  zPanal4[Path2,Represent_literal_meaning] zPanal4[Path2,Scan_and_locate]
  zPanal4[Path2,Search_and_select_relevant_text] zPanal4[Path2,Educational]
@@ -17704,7 +17704,7 @@ Binaries
  zPanal4[Path3,Transactional] zPanal4[Path3,W_Multiple]
  zPanal4[Path3,Assess_quality_and_credibility]
  zPanal4[Path3,Corroborate_and_handle_conflict]
- zPanal4[Path3,Integrate_and_generate_tnferences]
+ zPanal4[Path3,Integrate_and_generate_inferences]
  zPanal4[Path3,Reflect_on_content_and_form]
  zPanal4[Path3,Represent_literal_meaning] zPanal4[Path3,Scan_and_locate]
  zPanal4[Path3,Search_and_select_relevant_text] zPanal4[Path3,Educational]
@@ -17715,7 +17715,7 @@ Binaries
  zPanal4[Path4,Transactional] zPanal4[Path4,W_Multiple]
  zPanal4[Path4,Assess_quality_and_credibility]
  zPanal4[Path4,Corroborate_and_handle_conflict]
- zPanal4[Path4,Integrate_and_generate_tnferences]
+ zPanal4[Path4,Integrate_and_generate_inferences]
  zPanal4[Path4,Reflect_on_content_and_form]
  zPanal4[Path4,Represent_literal_meaning] zPanal4[Path4,Scan_and_locate]
  zPanal4[Path4,Search_and_select_relevant_text] zPanal4[Path4,Educational]
