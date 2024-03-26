@@ -1,0 +1,392 @@
+#######################################################################
+###                       约束条件表示如下                            ###
+#######################################################################
+
+
+1、Essential
+1) 结构
+    - 一个面板内不能有重复题组
+    - 每个题组的最大使用次数为3
+    - 不同面板同一阶段的不同模块间最大共同题组数为1), 即不可以出现完全相同的模块
+2) 难度分布
+    - core stage: 不能出现level6的题目; level2、level3的题目总和占比需要达到70%及以上
+    - Stage 1 
+        - H: 不能出现Leve1b、Level1c的题, Level3+Level4+Level5的题目总和占比需要达到70%及以上
+        - L: 不能出现level6的题目, Level1a+Level2+Level3的题目总和占比需要达到70%及以上 
+    - Stage 2
+        - H: 不能出现Leve1b、Level1c的题, Level3+Level4+Level5的题目总和占比需要达到70%及以上
+        - L: 不能出现level6的题目, Level1a+Level2+Level3的题目总和占比需要达到70%及以上
+3) 信息量
+    - Total_InformationPerModule_weight = [5.0,8.0,8.0,6.0,6.0] anchor = [0.0, 0.5, -0.5, 0.5, -0.5]
+    - Auto_InformationPerModule_ratio = [0.8, 0.6, 0.6]
+4) 每一条路径的总长度>=35
+
+
+2、High
+1) 每条路径出现至少6钟process
+2) 每条路径出现至少4钟situation
+3) 每条路径出现至少6钟TextType
+4) 题目数量在模块的分布
+    - TestletsNumberPerModule = [2,3,3,2,2]
+    - ItemsNumberPerModule_LB = [7,12,12,12,12]
+    - ItemsNumberPerModule_UB = [10,16,16,14,14]
+    - AuItemsNumberPerModule_LB = [7,8,8]
+    
+
+3、Low
+1) 单选题 [18, 24]
+2) 多选题 [5, +]
+3) 开放题 [8, +]
+
+
+#######################################################################
+###                              1                                  ###
+#######################################################################
+-----------------------------有解--------------------------------------
+··························约束添加情况··································
+
+TestletsUsedNum = True
+Maximun_testlet_use = True
+Maximun_testlet_common = True
+LevelRatio = True
+LB_Object = True
+ItemsNumberPath = True
+
+indicator_z = True
+process = True
+situation = True
+textType = True
+
+TestletsNumber = True
+ItemsNumber = True
+AuItemsNumber = True
+
+simpleChoice = True
+complicatedChoice = True
+openReponse = True
+
+relaxed = False
+
+
+··························求解结果·····································
+	              Core_Stage	      Stage_1H	          Stage_1L	          Stage_2H	      Stage_2L
+assignPanal1	[S1_7, S1_8]	[C1_3, S1_4, S1_17]	 [C1_1, S1_20, S1_22]	[S2_1, S2_9]	[S2_8, S2_14]
+assignPanal2	[S1_7, S2_13]	[C1_3, S1_1, S1_3]	 [S1_20, S1_24, S2_8]	[S1_4, S2_9]	[S2_3, S2_11]
+assignPanal3	[S1_7, S2_15]	[S1_4, S1_15, S1_17] [S1_8, S1_24, S2_8]	[S2_3, S2_9]	[S1_22, S2_11]
+assignPanal4	[C1_2, S1_10]	[S1_3, S1_6, S1_17]	 [S1_20, S1_24, S2_11]	[S1_1, S2_1]	[S2_7, S2_14]
+
+
+
+
+
+Optimization was stopped with status 2
+assignPanal1[C1_1,Stage_1L] 1.0
+assignPanal1[C1_3,Stage_1H] 1.0
+assignPanal1[S1_4,Stage_1H] 1.0
+assignPanal1[S1_7,Core_Stage] 1.0
+assignPanal1[S1_8,Core_Stage] 1.0
+assignPanal1[S1_17,Stage_1H] 1.0
+assignPanal1[S1_20,Stage_1L] 1.0
+assignPanal1[S1_22,Stage_1L] 1.0
+assignPanal1[S2_1,Stage_2H] 1.0
+assignPanal1[S2_8,Stage_2L] 1.0
+assignPanal1[S2_9,Stage_2H] 1.0
+assignPanal1[S2_14,Stage_2L] 1.0
+assignPanal2[C1_3,Stage_1H] 1.0
+assignPanal2[S1_1,Stage_1H] 1.0
+assignPanal2[S1_3,Stage_1H] 1.0
+assignPanal2[S1_4,Stage_2H] 1.0
+assignPanal2[S1_7,Core_Stage] 1.0
+assignPanal2[S1_20,Stage_1L] 1.0
+assignPanal2[S1_24,Stage_1L] 1.0
+assignPanal2[S2_3,Stage_2L] 1.0
+assignPanal2[S2_8,Stage_1L] 1.0
+assignPanal2[S2_9,Stage_2H] 1.0
+assignPanal2[S2_11,Stage_2L] 1.0
+assignPanal2[S2_13,Core_Stage] 1.0
+assignPanal3[S1_4,Stage_1H] 1.0
+assignPanal3[S1_7,Core_Stage] 1.0
+assignPanal3[S1_8,Stage_1L] 1.0
+assignPanal3[S1_15,Stage_1H] 1.0
+assignPanal3[S1_17,Stage_1H] 1.0
+assignPanal3[S1_22,Stage_2L] 1.0
+assignPanal3[S1_24,Stage_1L] 1.0
+assignPanal3[S2_3,Stage_2H] 1.0
+assignPanal3[S2_8,Stage_1L] 1.0
+assignPanal3[S2_9,Stage_2H] 1.0
+assignPanal3[S2_11,Stage_2L] 1.0
+assignPanal3[S2_15,Core_Stage] 1.0
+assignPanal4[C1_2,Core_Stage] 1.0
+assignPanal4[S1_1,Stage_2H] 1.0
+assignPanal4[S1_3,Stage_1H] 1.0
+assignPanal4[S1_6,Stage_1H] 1.0
+assignPanal4[S1_10,Core_Stage] 1.0
+assignPanal4[S1_17,Stage_1H] 1.0
+assignPanal4[S1_20,Stage_1L] 1.0
+assignPanal4[S1_24,Stage_1L] 1.0
+assignPanal4[S2_1,Stage_2H] 1.0
+assignPanal4[S2_7,Stage_2L] 1.0
+assignPanal4[S2_11,Stage_1L] 1.0
+assignPanal4[S2_14,Stage_2L] 1.0
+zPanal1[Path1,Argumentative] 1.0
+zPanal1[Path1,Exposition] 1.0
+zPanal1[Path1,Instruction] 1.0
+zPanal1[Path1,Narrative] 1.0
+zPanal1[Path1,Transactional] 1.0
+zPanal1[Path1,W_Multiple] 1.0
+zPanal1[Path1,Corroborate_and_handle_conflict] 1.0
+zPanal1[Path1,Integrate_and_generate_tnferences] 1.0
+zPanal1[Path1,Reflect_on_content_and_form] 1.0
+zPanal1[Path1,Represent_literal_meaning] 1.0
+zPanal1[Path1,Scan_and_locate] 1.0
+zPanal1[Path1,Search_and_select_relevant_text] 1.0
+zPanal1[Path1,Educational] 1.0
+zPanal1[Path1,Personal] 1.0
+zPanal1[Path1,Public] 1.0
+zPanal1[Path1,S_Multiple] 1.0
+zPanal1[Path2,Argumentative] 1.0
+zPanal1[Path2,Description] 1.0
+zPanal1[Path2,Exposition] 1.0
+zPanal1[Path2,Narrative] 1.0
+zPanal1[Path2,Transactional] 1.0
+zPanal1[Path2,W_Multiple] 1.0
+zPanal1[Path2,Corroborate_and_handle_conflict] 1.0
+zPanal1[Path2,Integrate_and_generate_tnferences] 1.0
+zPanal1[Path2,Reflect_on_content_and_form] 1.0
+zPanal1[Path2,Represent_literal_meaning] 1.0
+zPanal1[Path2,Scan_and_locate] 1.0
+zPanal1[Path2,Search_and_select_relevant_text] 1.0
+zPanal1[Path2,Educational] 1.0
+zPanal1[Path2,Occupational] 1.0
+zPanal1[Path2,Personal] 1.0
+zPanal1[Path2,Public] 1.0
+zPanal1[Path3,Description] 1.0
+zPanal1[Path3,Exposition] 1.0
+zPanal1[Path3,Instruction] 1.0
+zPanal1[Path3,Narrative] 1.0
+zPanal1[Path3,Transactional] 1.0
+zPanal1[Path3,W_Multiple] 1.0
+zPanal1[Path3,Corroborate_and_handle_conflict] 1.0
+zPanal1[Path3,Integrate_and_generate_tnferences] 1.0
+zPanal1[Path3,Reflect_on_content_and_form] 1.0
+zPanal1[Path3,Represent_literal_meaning] 1.0
+zPanal1[Path3,Scan_and_locate] 1.0
+zPanal1[Path3,Search_and_select_relevant_text] 1.0
+zPanal1[Path3,Educational] 1.0
+zPanal1[Path3,Occupational] 1.0
+zPanal1[Path3,Personal] 1.0
+zPanal1[Path3,Public] 1.0
+zPanal1[Path4,Argumentative] 1.0
+zPanal1[Path4,Description] 1.0
+zPanal1[Path4,Exposition] 1.0
+zPanal1[Path4,Narrative] 1.0
+zPanal1[Path4,Transactional] 1.0
+zPanal1[Path4,W_Multiple] 1.0
+zPanal1[Path4,Assess_quality_and_credibility] 1.0
+zPanal1[Path4,Integrate_and_generate_tnferences] 1.0
+zPanal1[Path4,Reflect_on_content_and_form] 1.0
+zPanal1[Path4,Represent_literal_meaning] 1.0
+zPanal1[Path4,Scan_and_locate] 1.0
+zPanal1[Path4,Search_and_select_relevant_text] 1.0
+zPanal1[Path4,Educational] 1.0
+zPanal1[Path4,Occupational] 1.0
+zPanal1[Path4,Personal] 1.0
+zPanal1[Path4,Public] 1.0
+zPanal2[Path1,Argumentative] 1.0
+zPanal2[Path1,Description] 1.0
+zPanal2[Path1,Exposition] 1.0
+zPanal2[Path1,Instruction] 1.0
+zPanal2[Path1,Narrative] 1.0
+zPanal2[Path1,W_Multiple] 1.0
+zPanal2[Path1,Corroborate_and_handle_conflict] 1.0
+zPanal2[Path1,Integrate_and_generate_tnferences] 1.0
+zPanal2[Path1,Reflect_on_content_and_form] 1.0
+zPanal2[Path1,Represent_literal_meaning] 1.0
+zPanal2[Path1,Scan_and_locate] 1.0
+zPanal2[Path1,Search_and_select_relevant_text] 1.0
+zPanal2[Path1,Educational] 1.0
+zPanal2[Path1,Personal] 1.0
+zPanal2[Path1,Public] 1.0
+zPanal2[Path1,S_Multiple] 1.0
+zPanal2[Path2,Description] 1.0
+zPanal2[Path2,Exposition] 1.0
+zPanal2[Path2,Instruction] 1.0
+zPanal2[Path2,Narrative] 1.0
+zPanal2[Path2,Transactional] 1.0
+zPanal2[Path2,W_Multiple] 1.0
+zPanal2[Path2,Corroborate_and_handle_conflict] 1.0
+zPanal2[Path2,Integrate_and_generate_tnferences] 1.0
+zPanal2[Path2,Reflect_on_content_and_form] 1.0
+zPanal2[Path2,Represent_literal_meaning] 1.0
+zPanal2[Path2,Scan_and_locate] 1.0
+zPanal2[Path2,Search_and_select_relevant_text] 1.0
+zPanal2[Path2,Educational] 1.0
+zPanal2[Path2,Occupational] 1.0
+zPanal2[Path2,Personal] 1.0
+zPanal2[Path2,Public] 1.0
+zPanal2[Path3,Argumentative] 1.0
+zPanal2[Path3,Exposition] 1.0
+zPanal2[Path3,Instruction] 1.0
+zPanal2[Path3,Narrative] 1.0
+zPanal2[Path3,Transactional] 1.0
+zPanal2[Path3,W_Multiple] 1.0
+zPanal2[Path3,Corroborate_and_handle_conflict] 1.0
+zPanal2[Path3,Integrate_and_generate_tnferences] 1.0
+zPanal2[Path3,Reflect_on_content_and_form] 1.0
+zPanal2[Path3,Represent_literal_meaning] 1.0
+zPanal2[Path3,Scan_and_locate] 1.0
+zPanal2[Path3,Search_and_select_relevant_text] 1.0
+zPanal2[Path3,Educational] 1.0
+zPanal2[Path3,Occupational] 1.0
+zPanal2[Path3,Personal] 1.0
+zPanal2[Path3,Public] 1.0
+zPanal2[Path4,Description] 1.0
+zPanal2[Path4,Exposition] 1.0
+zPanal2[Path4,Instruction] 1.0
+zPanal2[Path4,Narrative] 1.0
+zPanal2[Path4,Transactional] 1.0
+zPanal2[Path4,W_Multiple] 1.0
+zPanal2[Path4,Corroborate_and_handle_conflict] 1.0
+zPanal2[Path4,Integrate_and_generate_tnferences] 1.0
+zPanal2[Path4,Reflect_on_content_and_form] 1.0
+zPanal2[Path4,Represent_literal_meaning] 1.0
+zPanal2[Path4,Scan_and_locate] 1.0
+zPanal2[Path4,Search_and_select_relevant_text] 1.0
+zPanal2[Path4,Educational] 1.0
+zPanal2[Path4,Occupational] 1.0
+zPanal2[Path4,Personal] 1.0
+zPanal2[Path4,Public] 1.0
+zPanal3[Path1,Argumentative] 1.0
+zPanal3[Path1,Description] 1.0
+zPanal3[Path1,Exposition] 1.0
+zPanal3[Path1,Instruction] 1.0
+zPanal3[Path1,Narrative] 1.0
+zPanal3[Path1,W_Multiple] 1.0
+zPanal3[Path1,Corroborate_and_handle_conflict] 1.0
+zPanal3[Path1,Integrate_and_generate_tnferences] 1.0
+zPanal3[Path1,Reflect_on_content_and_form] 1.0
+zPanal3[Path1,Represent_literal_meaning] 1.0
+zPanal3[Path1,Scan_and_locate] 1.0
+zPanal3[Path1,Search_and_select_relevant_text] 1.0
+zPanal3[Path1,Educational] 1.0
+zPanal3[Path1,Personal] 1.0
+zPanal3[Path1,Public] 1.0
+zPanal3[Path1,S_Multiple] 1.0
+zPanal3[Path2,Argumentative] 1.0
+zPanal3[Path2,Description] 1.0
+zPanal3[Path2,Exposition] 1.0
+zPanal3[Path2,Instruction] 1.0
+zPanal3[Path2,Narrative] 1.0
+zPanal3[Path2,W_Multiple] 1.0
+zPanal3[Path2,Assess_quality_and_credibility] 1.0
+zPanal3[Path2,Integrate_and_generate_tnferences] 1.0
+zPanal3[Path2,Reflect_on_content_and_form] 1.0
+zPanal3[Path2,Represent_literal_meaning] 1.0
+zPanal3[Path2,Scan_and_locate] 1.0
+zPanal3[Path2,Search_and_select_relevant_text] 1.0
+zPanal3[Path2,Educational] 1.0
+zPanal3[Path2,Occupational] 1.0
+zPanal3[Path2,Personal] 1.0
+zPanal3[Path2,Public] 1.0
+zPanal3[Path3,Argumentative] 1.0
+zPanal3[Path3,Description] 1.0
+zPanal3[Path3,Exposition] 1.0
+zPanal3[Path3,Narrative] 1.0
+zPanal3[Path3,Transactional] 1.0
+zPanal3[Path3,W_Multiple] 1.0
+zPanal3[Path3,Corroborate_and_handle_conflict] 1.0
+zPanal3[Path3,Integrate_and_generate_tnferences] 1.0
+zPanal3[Path3,Reflect_on_content_and_form] 1.0
+zPanal3[Path3,Represent_literal_meaning] 1.0
+zPanal3[Path3,Scan_and_locate] 1.0
+zPanal3[Path3,Search_and_select_relevant_text] 1.0
+zPanal3[Path3,Educational] 1.0
+zPanal3[Path3,Personal] 1.0
+zPanal3[Path3,Public] 1.0
+zPanal3[Path3,S_Multiple] 1.0
+zPanal3[Path4,Description] 1.0
+zPanal3[Path4,Exposition] 1.0
+zPanal3[Path4,Instruction] 1.0
+zPanal3[Path4,Narrative] 1.0
+zPanal3[Path4,Transactional] 1.0
+zPanal3[Path4,W_Multiple] 1.0
+zPanal3[Path4,Assess_quality_and_credibility] 1.0
+zPanal3[Path4,Integrate_and_generate_tnferences] 1.0
+zPanal3[Path4,Reflect_on_content_and_form] 1.0
+zPanal3[Path4,Represent_literal_meaning] 1.0
+zPanal3[Path4,Scan_and_locate] 1.0
+zPanal3[Path4,Search_and_select_relevant_text] 1.0
+zPanal3[Path4,Educational] 1.0
+zPanal3[Path4,Occupational] 1.0
+zPanal3[Path4,Personal] 1.0
+zPanal3[Path4,Public] 1.0
+zPanal4[Path1,Description] 1.0
+zPanal4[Path1,Exposition] 1.0
+zPanal4[Path1,Instruction] 1.0
+zPanal4[Path1,Narrative] 1.0
+zPanal4[Path1,Transactional] 1.0
+zPanal4[Path1,W_Multiple] 1.0
+zPanal4[Path1,Corroborate_and_handle_conflict] 1.0
+zPanal4[Path1,Integrate_and_generate_tnferences] 1.0
+zPanal4[Path1,Reflect_on_content_and_form] 1.0
+zPanal4[Path1,Represent_literal_meaning] 1.0
+zPanal4[Path1,Scan_and_locate] 1.0
+zPanal4[Path1,Search_and_select_relevant_text] 1.0
+zPanal4[Path1,Educational] 1.0
+zPanal4[Path1,Occupational] 1.0
+zPanal4[Path1,Public] 1.0
+zPanal4[Path1,S_Multiple] 1.0
+zPanal4[Path2,Description] 1.0
+zPanal4[Path2,Exposition] 1.0
+zPanal4[Path2,Instruction] 1.0
+zPanal4[Path2,Narrative] 1.0
+zPanal4[Path2,Transactional] 1.0
+zPanal4[Path2,W_Multiple] 1.0
+zPanal4[Path2,Corroborate_and_handle_conflict] 1.0
+zPanal4[Path2,Integrate_and_generate_tnferences] 1.0
+zPanal4[Path2,Reflect_on_content_and_form] 1.0
+zPanal4[Path2,Represent_literal_meaning] 1.0
+zPanal4[Path2,Scan_and_locate] 1.0
+zPanal4[Path2,Search_and_select_relevant_text] 1.0
+zPanal4[Path2,Educational] 1.0
+zPanal4[Path2,Occupational] 1.0
+zPanal4[Path2,Personal] 1.0
+zPanal4[Path2,Public] 1.0
+zPanal4[Path3,Description] 1.0
+zPanal4[Path3,Exposition] 1.0
+zPanal4[Path3,Instruction] 1.0
+zPanal4[Path3,Narrative] 1.0
+zPanal4[Path3,Transactional] 1.0
+zPanal4[Path3,W_Multiple] 1.0
+zPanal4[Path3,Corroborate_and_handle_conflict] 1.0
+zPanal4[Path3,Integrate_and_generate_tnferences] 1.0
+zPanal4[Path3,Reflect_on_content_and_form] 1.0
+zPanal4[Path3,Represent_literal_meaning] 1.0
+zPanal4[Path3,Scan_and_locate] 1.0
+zPanal4[Path3,Search_and_select_relevant_text] 1.0
+zPanal4[Path3,Educational] 1.0
+zPanal4[Path3,Occupational] 1.0
+zPanal4[Path3,Personal] 1.0
+zPanal4[Path3,Public] 1.0
+zPanal4[Path4,Description] 1.0
+zPanal4[Path4,Exposition] 1.0
+zPanal4[Path4,Instruction] 1.0
+zPanal4[Path4,Narrative] 1.0
+zPanal4[Path4,Transactional] 1.0
+zPanal4[Path4,W_Multiple] 1.0
+zPanal4[Path4,Corroborate_and_handle_conflict] 1.0
+zPanal4[Path4,Integrate_and_generate_tnferences] 1.0
+zPanal4[Path4,Reflect_on_content_and_form] 1.0
+zPanal4[Path4,Represent_literal_meaning] 1.0
+zPanal4[Path4,Scan_and_locate] 1.0
+zPanal4[Path4,Search_and_select_relevant_text] 1.0
+zPanal4[Path4,Educational] 1.0
+zPanal4[Path4,Occupational] 1.0
+zPanal4[Path4,Personal] 1.0
+zPanal4[Path4,Public] 1.0
+y[Core_Stage] 1.0182000000000013
+y[Stage_1H] 1.105
+y[Stage_1L] 1.6186250000000002
+y[Stage_2H] 1.0141666666666667
+y[Stage_2L] 1.6334999999999997
+Total matching score:  6.389491666666668
